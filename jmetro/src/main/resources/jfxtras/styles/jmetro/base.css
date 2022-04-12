@@ -1108,12 +1108,16 @@ TextField {
     -fx-background-insets: 0;
     -fx-background-radius: 0;
     -fx-padding: 0.083333em; /* 1 */
+    -fx-border-color: background_color;
+    -fx-border-width: 0.4em;
 
 }
 
 .slider .fill {
     -fx-background-color: accent_color;
     -fx-padding: 0.083333em; /* 1 */
+    -fx-border-color: background_color;
+    -fx-border-width: 0.4em;
 }
 
 /* hover */
